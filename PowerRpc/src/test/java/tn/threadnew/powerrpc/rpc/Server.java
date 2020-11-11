@@ -18,6 +18,6 @@ public class Server {
         ZkConnectManager zk = new ZkConnectManager();
         zk.load("zk.properties");
         sp.scan("tn.threadnew.powerrpc.info").setRegister(zk).setConfig(zk.getConfig()).connect();
-        Thread.sleep(5000000);
+       // Thread.sleep(5000000);
     }
 }

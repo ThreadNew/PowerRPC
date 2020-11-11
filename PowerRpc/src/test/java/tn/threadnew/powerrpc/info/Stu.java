@@ -8,7 +8,7 @@ import tn.threadnew.powerrpc.rpc.netty.annotation.RpcService;
  * @Date: 2020/11/4 22:04
  * @Version: 1.0
  */
-@RpcService(version = "1.0", timeout = 5000, group = "info")
+@RpcService(version = "1.0",  group = "info")
 public class Stu implements UserInfo {
 
     @Override
